@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+.con{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.con .slider{
+    position: absolute;
+    float: left;
+    width: 600%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    animation: animation 15s linear  infinite ;
+}
+
+.con .slider .slide{
+    width: 16.666667%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.con .slider .slide .content{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background-color: rgba(19, 17, 17, 0.2);
+    color: white;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.con .slider .slide .content h1{
+    margin: 0%;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.con .slider .slide .content p{
+    padding: 0%;
+    margin: 0;
+    font-size: 1.1rem;
+    transition: 1s;
+}
+.con .slider .slide1{
+    background-image: url(living\ room.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con .slider .slide2{
+    background-image: url(living\ room2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con .slider .slide3{
+    background-image: url(i4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con .slider .slide4{
+    background-image: url(cupboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con .slider .slide5{
+    background-image: url(cupboard2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con .slider .slide1{
+    background-image: url(living\ room.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes animation{
+        0%{
+            left:0;
+        }
+        8%{
+            left:0%;
+        }
+        17%{
+            left:-100%;
+        }
+        25%{
+            left:-100%;
+        }
+        34%{
+            left:-200%;
+        }
+        43%{
+            left:-200%;
+        }
+        52%{
+            left: -300%;
+        }
+        62%{
+            left: -300%;
+        }
+        70%{
+            left: -400%;
+        }
+        82%{
+            left: -400%;
+        }
+        91%{
+            left: -500%;
+        }
+        100%{
+            left: -500%;
+        }
+
+}
+@media only screen and (max-width:700px) {
+    .con .slider .slide .content{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        box-sizing: border-box;
+    }
+    .con .slider .slide .content h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1rem;
+    }
+    .con .slider .slide .content p{
+        font-size: 1rem;
+    }
+}
+/*i2 ,living room,living room2,i4,,cupboard,cupboard*/
+

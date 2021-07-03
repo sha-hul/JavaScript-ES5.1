@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        //eg 1
+        // var a= new Array();
+        // a[0]=89;
+        // a[2]=97;
+        // a[3]=93;
+        // for(b=0;b<5;b++){
+        //     document.write(a[b]+"<br>");
+        // }
+        //eg 2
+        // var a=[97,88,75,90,99];
+        // var count,percentage;
+        // var total=0;
+        // for(count=0;count<5;count++){
+        //     var b=a[count];
+        //     total+=b;
+        // }
+        // function per(){
+        //     percentage=(total/500)*100;
+        //     document.write(percentage);
+        // }
+        // per();
+        // var a=new Array(3);
+        // document.write("<ul>")
+        // for(g=0;g<3;g++){
+        //      a[g]=prompt('Enter the value :');
+        //      document.write("<li>"+a[g]+"</li>");
+        // }
+        // document.write("</ul>")
+        //eg 3
+          var a=new Array();
+          a[0]=prompt('Subject 1:');
+          a[1]=prompt('Subject 2:');
+          a[2]=prompt('Subject 3:');
+          a[3]=prompt('Subject 4:');
+          a[4]=prompt('Subject 5:');
+          document.write('<ul>');
+        a.forEach(function (value) { 
+              document.write('<li>' + value+ '</li>');
+          });
+          document.write('</ul>');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

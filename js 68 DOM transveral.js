@@ -1,0 +1,22 @@
+// document.getElementById('inner').parentNode.style.backgroundColor='red';
+// var a=document.getElementById('child-c').parentElement.style.backgroundColor='lightyellow'
+// var b=document.getElementById('inner').children[1].style.backgroundColor="yellowgreen";
+// var a=document.getElementById('inner').childNodes[5].innerText='I am B bro';
+// var a=document.getElementById('inner').childNodes[5].style.backgroundColor='orange';
+// var a=document.getElementById('inner').firstElementChild.style.backgroundColor='purple';
+// var a=document.getElementById('inner').lastElementChild.style.backgroundColor='purple';
+// var a=document.getElementById('inner').firstChild;
+// var a=document.getElementById('inner').lastChild.style.backgroungColor='yellow';
+// var a=document.getElementById('child-c').previousElementSibling;
+// var a=document.getElementById('child-c').nextElementSibling;
+// var a=document.getElementById('child-c').previousSibling;
+// var a=document.getElementById('child-c').nextSibling;
+document.getElementById('inner').parentElement.style.backgroundColor='lightgray';
+// document.getElementById('inner').parentNode.style.backgroundColor='lightpink';
+document.getElementById('inner').children[1].style.backgroundColor='greenyellow';
+document.getElementById('inner').childNodes[5].style.backgroundColor='yellow';
+var a=document.getElementById('inner').firstElementChild.style.border='8px solid black';
+document.getElementById('inner').lastElementChild.style.backgroundColor='purple';
+document.getElementById('child-c').nextElementSibling.style.color='cyan';
+document.getElementById('child-c').previousElementSibling.style.color='tomato';
+console.log(a);

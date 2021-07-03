@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+    background-color: #444;
+}
+.nav ul{
+    list-style: none;  
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}

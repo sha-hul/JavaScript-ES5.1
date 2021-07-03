@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // var a,b,c,d;
+        // a=18;
+        // b=30;
+        // if(a>b)
+        // {
+        //     document.write("a is greater");
+        // }
+        // else if(a==b)
+        // {
+        //     document.write("both are equal");
+        // }
+        // else
+        // {
+        //     document.write("b is greater");
+        // }
+        //     var name="Shahul";
+        //     var gender="Male";
+        //     if(gender=="Male"){
+        //         document.write("Hello Mr."+name);
+        //     }
+        //     else{
+        //         document.write("false");
+        //     }
+        // var per=913;
+        var per=prompt('Enter the percentage');
+        var name='Shahul';
+        if(per>=80 && per<=100){
+            document.write("Merit for"+ name);
+        }
+       else if(per>=60 && per<80){
+            document.write("good for"+ name);
+        }
+       else if(per>=40 && per<60){
+            document.write(confirm('Keep grow for'+ name));
+        }
+       else if(per<40){
+            document.write("Fail for"+ name);
+        }
+        else{
+            document.write( alert('Plzz enter the valid percentage' +name));
+        }
+
+     </script>
+</head>
+<body>
+    
+</body>
+</html>

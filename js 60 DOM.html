@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 90%;
+            margin: auto;
+        }
+        #Heading{
+            background-color:red;
+            padding: 20px;
+        }
+        .xyz{
+            color: yellow;
+        }
+        .menu ul{
+            background-color: rgb(139, 22, 175);
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(4,100px);
+        }
+        .menu ul li a{
+            display: block;
+            padding: 10px 20px ;
+            color: white;
+            text-decoration: none;
+        }
+        .menu ul li a:hover{
+            background-color: thistle;
+            color: red;
+        }
+        .main{
+            padding: 10px;
+        }
+        .main h1{
+            padding: 10px;
+        }
+        .main  img{
+            float: left;
+            padding: 8px;
+        }
+        .main ul{
+            padding: 20px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .container .main{
+            flex: 1 1 80%;
+            max-width: 80%;
+        }
+        .container .aside{
+            flex: 1 1 20%;
+            max-width: 20%;
+            border-left:2px solid black ;
+            background-color: cornflowerblue;
+            padding: 30px;
+        }
+        .container .aside a{
+            text-decoration: none;
+            color: black;
+        }
+        footer{
+            background-color: red;
+            text-align: right;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="Heading" class="abc def xyz" style="border: 10px solid yellow;" onclick="cyz()">
+            <h1>Yahoo Baba</h1>
+            <h1>Yahoo eeeyeeee</h1>
+        </div>
+        <div class="menu">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="container">
+        <div class="main">
+            <h1>Sub Heading</h1>
+            <img src="C:\Users\Shahul\Documents\HTML\doll.jpg" alt="" style="width: 300px;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vel inventore cupiditate minus laboriosam eligendi praesentium iste quam ducimus iusto necessitatibus, culpa expedita veritatis, tempora porro! Nobis, distinctio! Quo, maxime? Perferendis inventore officia quae debitis! Quae hic inventore voluptatem voluptas sunt odio, atque quisquam, officia ab fugit unde. Sequi aspernatur itaque explicabo repellat, eum voluptas! Doloribus delectus rerum vitae, velit laudantium commodi tenetur? At mollitia voluptates suscipit ea tenetur quidem, minus ducimus molestias similique, est temporibus soluta ut? Mollitia ea minus cum perspiciatis eaque ipsam quas ex iste, earum a in quibusdam debitis sed! Laudantium consequuntur aspernatur quo velit fugiat ab enim vero culpa aliquam, vitae, quibusdam recusandae animi voluptates doloremque eum molestias cupiditate sint beatae. Cupiditate reprehenderit quo, aut laboriosam odit suscipit magni nihil dolorem quae necessitatibus itaque nam culpa praesentium! Minus numquam quos quaerat tenetur possimus. Eligendi, aperiam ab? Facilis perferendis similique maxime magni modi dolore ratione nihil neque cupiditate sapiente atque sit dolorem unde consectetur natus voluptate, laborum mollitia. Eligendi odio exercitationem suscipit non assumenda explicabo alias a laborum blanditiis ipsam fugiat in cumque harum quos et voluptate illum consequuntur doloribus, dolorem veniam debitis? Quas quis doloribus aspernatur natus deserunt modi dolorem dignissimos architecto, ex neque eligendi sed necessitatibus, nisi sunt ut magnam libero numquam laudantium quia labore, cum ea. Minima ad, laboriosam sapiente quia praesentium impedit. Eveniet officiis labore quis. Quas distinctio magnam omnis itaque tenetur eligendi doloremque aperiam fuga, quam et commodi, corporis praesentium corrupti molestiae ex dignissimos fugit optio, consequuntur nam totam amet officiis. Nemo molestiae aut perferendis animi culpa sapiente explicabo incidunt porro illo, cum provident optio vero! Nihil architecto aut distinctio optio cupiditate, quaerat, consequuntur tempore commodi mollitia ad numquam voluptatibus beatae excepturi autem esse nisi doloremque omnis magnam sunt quas explicabo repudiandae quidem accusantium ipsam. Quis, accusantium explicabo? Vitae, fuga voluptas?
+            </p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+        </div>
+        <div class="aside">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </div>
+        </div>
+        <footer>
+            shahulravuthar8227@gmail.com
+        </footer>
+    </div>
+    <script src="dom.js">
+    </script>
+</body>
+</html>
