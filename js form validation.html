@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Form Validation in JavaScript</title>
+    <link rel="stylesheet" href="./form.css" />
+</head>
+<body>
+    <div class="input-form">
+        <form id="form" method="GET" enctype="multipart/form-data">
+            <div>
+                <h1>Form Validation</h1>
+                <input  type="text" autocomplete="off" placeholder="Enter the name..." id="name"  />
+                <input type="email" autocomplete="off"  placeholder="Enter your email..." id="email"  />
+                <input type="number" autocomplete="off"  placeholder="Enter the mobile number..." id="number"  />
+                <input type="password" autocomplete="off"  placeholder="Enter your Password..." id="password"  />
+                <input type="password" autocomplete="off"  placeholder="Confirm your password..." id="checkpassword"  />
+                <input type="submit" value="Send 🙋"/>
+            </div>
+        </form>
+    </div>
+    <script>
+        let form=document.getElementById("form");
+        let name = document.getElementById("name");
+        let email = document.getElementById("email");
+        let number = document.getElementById("number");
+        let password = document.getElementById("password");
+        let checkpassword = document.getElementById("checkpassword");
+        form.addEventListener("submit",(event)=>{
+            event.preventDefault();
+            validate()
+        })
+        validat=()=>{
+        let nameVal = document.getElementById("name").value.trim();
+        let emailVal = document.getElementById("email").value.trim();
+        let numberVal = document.getElementById("number").value.trim();
+        let passwordVal = document.getElementById("password").value.trim();
+        let checkpasswordVal = document.getElementById("checkpassword").value.trim();
+
+        if(nameVal===" "){
+            setErrormsg(username,"username cann't be blank");
+        }
+        else if(username.length <=2){
+            setErrormsg(username,"username must be more than 3 letter");
+        }
+        else{
+            setSucess(username);
+        }
+        }
+    </script>
+</body>
+</html>

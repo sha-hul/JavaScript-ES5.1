@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <a id="link" href="https://www.youtube.com/" target="_blank">Link</a> -->
+    <form id="form" action="file.html">
+        <label for="a">Name</label>
+        <input id="a" type="text" placeholder="Enter your name...">
+        <br/>
+        <label for="2">Password</label>
+        <input type="password" id="2" placeholder="Enter your password..">
+        <br/>
+        <input type="submit" value="Send 👍">
+    </form>
+    <script>
+    {
+        document.getElementById("form").addEventListener("click",(event)=>{
+            event.preventDefault();
+        })}
+    </script>
+</body>
+</html>

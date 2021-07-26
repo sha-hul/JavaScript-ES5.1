@@ -1,13 +1,35 @@
-var sec=document.getElementsByClassName('section');
-for(var a=0;a<sec.length;a++){
-    sec[a].addEventListener('click',function(){
-        this.classList.toggle('active');
-        var block=this.nextElementSibling;
-        if(block.style.display=='block'){
-            block.style.display='none'
-        }
-        else{
-            block.style.display='block'
-        }
-    })
+// var btn=document.getElementById('button');
+// var boby=document.querySelector('.button');
+// console.log(boby);
+// btn.addEventListener('click',function(){
+// boby.style.background='red';
+//  this.textContent=' Wow  😃'
+// })
+// function dbl(){
+// boby.style.background='brown';
+//  btn.textContent=' Ayyo 😓'
+// }
+
+
+// 
+
+// let value=document.getElementById('value');
+// var btn=document.getElementById('btn');
+// let display=()=>{
+//     let input=document.getElementById('input').value;
+    
+//         if(input==""){
+//     value.textContent=''
+//         }
+//         else{
+//             value.textContent=`Hello ${input}` 
+//         }
+//     }
+
+
+// 
+
+let item=["apple","mango","banana","tomato"]
+let itemlist=()=>{
+    
 }
